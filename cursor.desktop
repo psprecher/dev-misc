@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Cursor
+Exec=/home/psprecher/apps/cursor-0.42.3-build-241016kxu9umuir-x86_64.AppImage
+Icon=/home/psprecher/apps/cursor.png
+Type=Application
+Terminal=False

@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "CapsLock",
+    "command": "extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "CapsLock",
+    "command": "-extension.vim_escape",
+    "when": "editorTextFocus && vim.active && !inDebugRepl"
+  },
+  {
+    "key": "t",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && !inDebugRepl"
+  },
+  {
+    "key": "shift+t",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && !inDebugRepl"
+  },
+  {
+    "key": "e",
+    "command": "workbench.action.quickOpen",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Normal' && !inDebugRepl"
+  },
+]
